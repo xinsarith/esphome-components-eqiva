@@ -31,8 +31,8 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Esphome-Web-Eqiva-Lock"
-    password: "12345678"
+    ssid: Esphome-Web-Eqiva-Lock
+    password: 12345678
   # Activate scan only after wifi connect, see https://github.com/esphome/issues/issues/2941#issuecomment-1842369092
   on_connect:
     - esp32_ble_tracker.start_scan:
